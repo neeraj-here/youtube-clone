@@ -3,6 +3,10 @@
     align-items: center;
     justify-content: space-between;
     padding: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: white;
 }
 
 .header__left {
@@ -42,7 +46,6 @@
     margin: 0px;
     color: rgb(158, 154, 154);
     transform: scale(.85);
-    /* font-weight: bolder; */
 }
 
 .header__mic {
@@ -58,7 +61,7 @@
 }
 
 .header__icon {
-    margin: 12px;
+    margin: 10px;
 }
 
 .header__avatar {

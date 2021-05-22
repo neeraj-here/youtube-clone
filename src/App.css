@@ -2,6 +2,7 @@
   margin: 0;
 }
 
-.app {
-  text-align: center;
+.app__page {
+  display: flex;
+  margin-top: 12px;
 }
