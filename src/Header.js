@@ -25,7 +25,7 @@ function Header() {
                     <input type="text" placeholder="Search" />
                     <SearchIcon className="header__searchIcon"  />
                 </div>
-                <MicIcon className="header__mic" title="Speak"/>
+                <span><MicIcon className="header__mic" /></span>
             </div>
             <div className="header__icons">
                 <VideoCallIcon className="header__icon" />
