@@ -1,4 +1,15 @@
 .recommendedVideos {
-    flex: .83;
-    border: 1px solid black;
+  flex: 0.83;
+  padding: 40px 10px;
+  padding-bottom: 0;
+}
+
+.recommendedVideos > h2 {
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+
+.recommendedVideos__videos {
+  display: flex;
+  flex-wrap: wrap;
 }
