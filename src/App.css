@@ -4,5 +4,12 @@
 
 .app__page {
   display: flex;
-  margin-top: 12px;
+  margin-top: 4px;
+}
+
+.app__recommendations {
+  display: flex;
+  flex-direction: column;
+  
+  flex: 0.83;
 }

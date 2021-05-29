@@ -17,6 +17,7 @@
     height: 28px;
     object-fit: contain;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .header__input {
@@ -46,7 +47,6 @@
     margin: 0px;
     color: rgb(158, 154, 154);
     font-size: 1.22em !important;
-    /* transform: scale(.8); */
 }
 
 .header__searchIcon:hover {

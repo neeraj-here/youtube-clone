@@ -22,7 +22,7 @@ function Video({thumbnailImg, title, channelName, timestamp, views, channelImg})
             <div className="video__info">
                 <Avatar className="video__avatar" src={channelImg} alt={channelName} />
                 <div className="video__text">
-                    <h4>{title}</h4>
+                    <h4>{ title.length > 45  ? title.substring(0, 45)+"..." : title}</h4>
                     <p className="video__channelName" title={channelName}>{channelName}</p>
                     <p>{views} views • {timestamp} ago</p>
                 </div>

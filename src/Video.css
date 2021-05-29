@@ -22,7 +22,7 @@
   top: 50px;
   color: rgb(255, 253, 253);
   opacity: 0;
-  transition: 0.5s ease;
+  transition: .5s ease;
 }
 
 .video__playButtonIcon {
@@ -30,7 +30,7 @@
 }
 
 .video:hover .video__playButton {
-  opacity: 0.87;
+  opacity: .83;
 }
 
 .video__duration {
@@ -39,7 +39,7 @@
   right: 4.5px;
   padding: 1px 4px;
   padding-bottom: 2px;
-  background: rgba(0, 0, 0, 0.95);
+  background: rgba(0, 0, 0, 0.795);
   border-radius: 2.5px;
   color: white;
   font-size: 0.82em;

@@ -1,5 +1,6 @@
 .sidebar {
     flex: .17;
+    margin-top: 5px;
 }
 
 .sidebar > hr {

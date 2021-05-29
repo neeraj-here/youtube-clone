@@ -1,0 +1,20 @@
+.TopBarItem {
+  flex-wrap: nowrap;
+  border: 1px solid rgba(189, 181, 181, 0.479);
+  margin: 11px 6px;
+  padding: 5px 12px;
+  padding-bottom: 6px;
+  border-radius: 18px;
+  font-weight: 500;
+  font-size: 0.9em;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.71);
+  background: rgba(224, 224, 224, 0.46);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.TopBarItem:hover {
+  background: rgba(224, 224, 224, 0.822);
+  border: 1px solid rgba(189, 181, 181, 0.5);
+}

@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Header';
 import Sidebar from './Sidebar'
 import RecommendedVideos from './RecommendedVideos'
+import TopBar from './TopBar';
 
 function App() {
 
@@ -9,9 +10,11 @@ function App() {
     <div className="app">
       <Header />
       <div className="app__page">
-        {/* SideBar */}
         <Sidebar />
-        <RecommendedVideos />
+        <div className="app__recommendations">
+          <TopBar />
+          <RecommendedVideos />
+        </div>
       </div>
     </div>
   );
