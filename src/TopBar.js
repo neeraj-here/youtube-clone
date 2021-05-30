@@ -6,6 +6,7 @@ function TopBar() {
     return (
         <div className="TopBar">
             <TopBarItem text="All" />
+            <TopBarItem text="Finances" />
             <TopBarItem text="Programming" />
             <TopBarItem text="Javascript" />
             <TopBarItem text="Web Development" />

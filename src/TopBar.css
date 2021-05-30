@@ -2,6 +2,10 @@
   border-top: 1px solid rgba(189, 181, 181, 0.397);
   border-bottom: 1px solid rgb(189, 181, 181, 0.397);
   padding: 0px 15px;
+  /* padding-top: 50px; */
   display: flex;
-  padding: ;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+  background-color: white;
 }

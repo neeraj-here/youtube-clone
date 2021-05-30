@@ -5,11 +5,31 @@
 .app__page {
   display: flex;
   margin-top: 4px;
+  
+  position: relative;
 }
 
 .app__recommendations {
   display: flex;
   flex-direction: column;
-  
   flex: 0.83;
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+  border: 4px solid rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(117, 116, 116, 0.822);
+  border: 4px solid rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(170, 170, 170, 0.712);
 }

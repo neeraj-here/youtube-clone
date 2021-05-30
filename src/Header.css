@@ -23,7 +23,7 @@
 .header__input {
     display: flex;
     align-items: center;
-    width: 45%;
+    width: 50%;
 }
 
 .header__searchBar {
