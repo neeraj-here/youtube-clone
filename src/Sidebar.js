@@ -28,6 +28,33 @@ function Sidebar() {
             <SidebarRow Icon={ThumbUpAltIcon} title="Liked Videos" />
             <SidebarRow Icon={ExpandMoreOutlinedIcon} title="Show more" />
             <hr />
+            <SidebarRow Icon={VideoLibraryIcon} title="Library" />
+            <SidebarRow Icon={HistoryIcon} title="History" />
+            <SidebarRow Icon={OndemandVideoIcon} title="Your Videos" />
+            <SidebarRow Icon={WatchLaterIcon} title="Watch Later" />
+            <SidebarRow Icon={ThumbUpAltIcon} title="Liked Videos" />
+            <SidebarRow Icon={ExpandMoreOutlinedIcon} title="Show more" />
+            <hr />
+            <SidebarRow Icon={VideoLibraryIcon} title="Library" />
+            <SidebarRow Icon={HistoryIcon} title="History" />
+            <SidebarRow Icon={OndemandVideoIcon} title="Your Videos" />
+            <SidebarRow Icon={WatchLaterIcon} title="Watch Later" />
+            <SidebarRow Icon={ThumbUpAltIcon} title="Liked Videos" />
+            <SidebarRow Icon={ExpandMoreOutlinedIcon} title="Show more" />
+            <hr />
+            <SidebarRow Icon={VideoLibraryIcon} title="Library" />
+            <SidebarRow Icon={HistoryIcon} title="History" />
+            <SidebarRow Icon={OndemandVideoIcon} title="Your Videos" />
+            <SidebarRow Icon={WatchLaterIcon} title="Watch Later" />
+            <SidebarRow Icon={ThumbUpAltIcon} title="Liked Videos" />
+            <SidebarRow Icon={ExpandMoreOutlinedIcon} title="Show more" />
+            <hr />
+            <SidebarRow Icon={VideoLibraryIcon} title="Library" />
+            <SidebarRow Icon={HistoryIcon} title="History" />
+            <SidebarRow Icon={OndemandVideoIcon} title="Your Videos" />
+            <SidebarRow Icon={WatchLaterIcon} title="Watch Later" />
+            <SidebarRow Icon={ThumbUpAltIcon} title="Liked Videos" />
+            <SidebarRow Icon={ExpandMoreOutlinedIcon} title="Show more" />
         </div>
     )
 }

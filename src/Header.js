@@ -10,6 +10,7 @@ import MicIcon from '@material-ui/icons/Mic';
 import youtube from './Media/youtube.jpg'
 
 function Header() {
+
     return (
         <div className="header">
             <div className="header__left">
@@ -17,7 +18,8 @@ function Header() {
                 <img
                     className="header__logo"
                     src={youtube}
-                    alt="youtube icon"
+                    alt="YouTube Home"
+                    title="YouTube Home"
                 />
             </div>
             <div className="header__input">

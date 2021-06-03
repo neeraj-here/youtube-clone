@@ -4,9 +4,6 @@
 
 .app__page {
   display: flex;
-  margin-top: 4px;
-  
-  position: relative;
 }
 
 .app__recommendations {
@@ -31,5 +28,5 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(170, 170, 170, 0.712);
+  background: rgba(170, 170, 170, 0.51);
 }

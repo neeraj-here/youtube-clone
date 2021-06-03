@@ -6,17 +6,17 @@ import TopBar from './TopBar';
 
 function App() {
 
-  return (
-    <div className="app">
-      <Header />
-      <div className="app__page">
-        <Sidebar />
-        <div className="app__recommendations">
-          <TopBar />
-          <RecommendedVideos />
+    return (
+      <div className="app">
+        <Header />
+        <div className="app__page">
+          <Sidebar />
+          <div className="app__recommendations">
+            <TopBar />
+            <RecommendedVideos />
+          </div>
         </div>
       </div>
-    </div>
   );
 }
 

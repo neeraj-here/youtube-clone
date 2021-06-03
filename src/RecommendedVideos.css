@@ -1,16 +1,5 @@
 .recommendedVideos {
-  padding: 0px 10px;
-  padding-bottom: 0;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.recommendedVideos > h2 {
-  margin-left: 5px;
-  margin-bottom: 20px;
-}
-
-.recommendedVideos__videos {
+  padding: 3px 10px;
   display: flex;
   flex-wrap: wrap;
 }
